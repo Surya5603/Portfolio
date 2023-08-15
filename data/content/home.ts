@@ -24,8 +24,8 @@ export const skills: Skill[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
-    title: "Sass",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    title: "Angular",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
   },
   {
     title: "TailwindCSS",
@@ -53,32 +53,50 @@ export const skills: Skill[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
   {
-    title: "Firebase",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    title: "mongoDB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+  },
+  {
+    title: "PostgreSQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
   },
   {
     title: "Figma",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+  },
+  {
+    title: "Docker",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+  },
+  {
+    title: "C++",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+  },
+  {
+    title: "Java",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
   },
 ];
 
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "The communication throughout the project was spot on and the genre of design was carried out well.",
-    name: "Wilson Bright",
-    job: "Co-Founder of BlockSurvey",
+      "Sustainable Development Goals - Winner (02/2021 - 02/2021)",
+    name: "1st Place",
+    job: "SSEC Chennai",
   },
   {
     quote:
-      "The code was clean, easy to understand, and exactly what I was looking for.",
-    name: "Philip Imperato",
-    job: "CEO of VisualBonus",
+      "PRASENTATIA 2021 - Runner (10/2021 - 11/2021)",
+    name: "2nd Place",
+    job: "SSEC Chennai",
   },
   {
-    quote:
-      "My vision was executed perfectly. The quality and speed of the work was excellent.",
-    name: "Zach Green",
-    job: "Founder of Hangxiety Shrink",
+    
+      "quote": "Research paper on - Emergency Tracking System Using Intelligent Agent in IEEE conference",
+      "name": "Conference",
+      "job": "Published"
+    
+    
   },
 ];

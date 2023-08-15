@@ -74,31 +74,26 @@ export const footer: Footer = {
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/braydentw",
+          link: "https://github.com/Surya5603",
           icon: "/static/icons/github-f.svg",
           leavesWebsite: true,
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/braydentw/",
+          link: "https://www.linkedin.com/in/surya-kumar-ravikumar-90b9681bb/",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
         {
           name: "Dribbble",
-          link: "https://dribbble.com/braydentw",
+          link: "https://dribbble.com/Surya5603",
           icon: "/static/icons/dribbble-f.svg",
           leavesWebsite: true,
         },
-        {
-          name: "IndieHackers",
-          link: "https://indiehackers.com/braydentw",
-          icon: "/static/icons/indiehackers-f.svg",
-          leavesWebsite: true,
-        },
+      
         {
           name: "Email",
-          link: "mailto:contact@braydentw.io",
+          link: "mailto:Suryak5603@gmail.com",
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },

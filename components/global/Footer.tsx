@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { footer } from "@/data/global";
 import Image from "next/image";
+import { text } from "stream/consumers";
 
 function Footer() {
   return (
@@ -42,26 +43,35 @@ function Footer() {
         })}
         <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
           <h4 className="uppercase text-fun-gray text-sm font-bold">
-            Support My Work
+            Wanna see my resume?
           </h4>
-          <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
+          <p className="py-20 text-sm italic text-fun-gray">
+            Check out here -<a className="text-fun-pink underline" href="https://yellow-mechelle-44.tiiny.site" target="_blank">Click here</a>!
+      </p>
+          {/* <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
             {footer.support.buymeacoffee !== "" && (
               <div>
                 <a
                   href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
                   target="_blank"
+
                 >
+                  <h1></h1>
                   <img
                     src="/static/misc/buy-me-a-coffee.svg"
                     className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+                    
                   />
                 </a>
               </div>
             )}
             {footer.support.paypal !== "" && (
               <div>
+
                 <a
+                  
                   href={`https://paypal.me/${footer.support.paypal}`}
+
                   target="_blank"
                 >
                   <img
@@ -74,7 +84,7 @@ function Footer() {
             <p className="text-fun-gray text-xs pt-1">
               {footer.support.message}
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
@@ -115,14 +125,14 @@ function Footer() {
               href="mailto:contact@braydentw.io"
               className="text-fun-gray-light font-medium"
             >
-              Brayden Wright
+               Surya Kumar
             </a>
             . All rights reserved.
           </div>
         </p>
       </div>
       <div className="mt-8 text-center sm:text-right sm:-mt-12">
-        <a
+        {/* <a
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
           href="https://github.com/braydentw/braydentw.io"
           target="_blank"
@@ -135,7 +145,7 @@ function Footer() {
             alt="Github Icon"
           />
           <span className="ml-2">View Source Code </span>
-        </a>
+        </a> */}
       </div>
     </footer>
   );
