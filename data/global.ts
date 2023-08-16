@@ -52,11 +52,7 @@ export const footer: Footer = {
           link: "/",
           leavesWebsite: false,
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
+       
         {
           name: "Projects",
           link: "/projects",
